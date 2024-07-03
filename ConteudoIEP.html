@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ConteúdoIEP</title>
+    <link rel="stylesheet" href="ConteudoIEP.css">
+    <link rel="shortcut icon" href="iconeIEP.png" type="image/x-icon">
+    
+</head>
+<body>
+    <div id="fundo">
+        <header><a href="ajudou.html"><img src="grupos.png" alt="img" id="grupos"></img></a><div id="espa0"></div><a href="index.html" rel="back"><img src="exit.png" alt="img" id="exit"></a></img></header>
+        <div id="part1">
+            
+            <div id="dici"><strong>Disciplinas</strong></div>
+            <div id="principal">
+                <div class="itens">
+                    <div id="espa1"></div>
+                    <p class="tipo">Linguagens</p>
+                    <div class="materia" onclick="clicouPT()"><p>Português</p><img src="entrar.png" alt="img"></img></div>
+                    <div class="materia" onclick="clicouLI()"><p>Inglês</p><img src="entrar.png" alt="img"></img></div>
+                    <div class="materia" onclick="clicouESP()"><p>Espanhol</p><img src="entrar.png" alt="img"></img></div>
+                    <div class="materia" onclick="clicouART()"><p>Artes</p><img src="entrar.png" alt="img"></img></div>
+                    <div class="materia" onclick="clicouEDF()"><p>Educação F.</p><img src="entrar.png" alt="img"></img></div>
+                </div>
+                <div class="itens">
+                    <p class="tipo">Humanas</p>
+                    <div class="materia" onclick="clicouFIL()"><p>Filosofia</p><img src="entrar.png" alt="img"></img></div>
+                    <div class="materia" onclick="clicouGEO()"><p>Geografia</p><img src="entrar.png" alt="img"></img></div>
+                    <div class="materia" onclick="clicouHIS()"><p>História</p><img src="entrar.png" alt="img"></img></div>
+                    <div class="materia" onclick="clicouSOC()"><p>Sociologia</p><img src="entrar.png" alt="img"></img></div>
+                </div>
+                <div class="itens">
+                    <p class="tipo">Exatas</p>
+                    <div class="materia" onclick="clicouFIS()"><p>Física</p><img src="entrar.png" alt="img"></img></div>
+                    <div class="materia" onclick="clicouQUI()"><p>Química</p><img src="entrar.png" alt="img"></img></div>
+                    <div class="materia" onclick="clicouMAT()"><p>Matemática</p><img src="entrar.png" alt="img"></img></div>
+                </div>
+                <div id="espa2"></div>
+                <div id="add"><img src="add.png" alt="img" ></img></div>
+            
+            </div>
+        </div>
+        
+        
+        
+        
+        <div id="part2">
+            <div id="principal2"><p id="paragrafo">Português</p><img src="sair.png" alt="img" onclick="clicouSAIR()"></img></div>
+            <div id="principal3">
+                <form>
+                    <div class="notas">
+                        <div class="espa"></div>
+                        <p class="bimestre">1°bimestre</p>
+                        <div class="todosvalores">
+                            <div class="nomesvalores">
+                                <p class="p">nota</p>
+                                <p class="p">nota</p>
+                                <p class="p">nota</p>
+                                <p class="p">bônus</p>
+                                <p class="mediavalores">média</p>
+                            </div>
+                            <div class="oi">
+                            
+                                <input class="valores" type="number" name="nota1" id="nota1" value="0" required>
+                                <input class="valores" type="number" name="nota2" id="nota2" value="0" required>
+                                <input class="valores" type="number" name="nota3" id="nota3" value="0" required>
+                                <input class="valores" type="number" name="nota4" id="nota4" value="0" required>
+                                <p class="medias" id="media1"><span id="span1"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="notas">
+                        <div class="espa"></div>
+                        <p class="bimestre">2°bimestre</p>
+                        <div class="todosvalores">
+                            <div class="nomesvalores">
+                                <p class="p">nota</p>
+                                <p class="p">nota</p>
+                                <p class="p">nota</p>
+                                <p class="p">bônus</p>
+                                <p class="mediavalores">média</p>
+                            </div>
+                            <div class="oi">
+                            
+                                <input class="valores" type="number" name="nota5" id="nota5" value="0" required>
+                                <input class="valores" type="number" name="nota6" id="nota6" value="0" required>
+                                <input class="valores" type="number" name="nota7" id="nota7" value="0" required>
+                                <input class="valores" type="number" name="nota8" id="nota8" value="0" required>
+                                <p class="medias" id="media2"><span id="span2"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="notas">
+                        <div class="espa"></div>
+                        <p class="bimestre">3°bimestre</p>
+                        <div class="todosvalores">
+                            <div class="nomesvalores">
+                                <p class="p">nota</p>
+                                <p class="p">nota</p>
+                                <p class="p">nota</p>
+                                <p class="p">bônus</p>
+                                <p class="mediavalores">média</p>
+                            </div>
+                            <div class="oi">
+                            
+                                <input class="valores" type="number" name="nota9" id="nota9" value="0" required>
+                                <input class="valores" type="number" name="nota10" id="nota10" value="0" required>
+                                <input class="valores" type="number" name="nota11" id="nota11" value="0" required>
+                                <input class="valores" type="number" name="nota12" id="nota12" value="0" required>
+                                <p class="medias" id="media3"><span id="span3"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="notas">
+                        <div class="espa"></div>
+                        <p class="bimestre">4°bimestre</p>
+                        <div class="todosvalores">
+                            <div class="nomesvalores">
+                                <p class="p">nota</p>
+                                <p class="p">nota</p>
+                                <p class="p">nota</p>
+                                <p class="p">bônus</p>
+                                <p class="mediavalores">média</p>
+                            </div>
+                            <div class="oi">
+                            
+                                <input class="valores" type="number" name="nota13" id="nota13" value="0" required>
+                                <input class="valores" type="number" name="nota14" id="nota14" value="0" required>
+                                <input class="valores" type="number" name="nota15" id="nota15" value="0" required>
+                                <input class="valores" type="number" name="nota16" id="nota16" value="0" required>
+                                <p class="medias" id="media4"><span id="span4"></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="espa"></div>
+                    <div id="divbtn"><input id="btn" type="submit" value="Calcular"></div>
+                </form>
+            </div>
+            <div id="espa3"></div>
+            <div id="resultado">
+                <p id="restotal">Total</p>
+                <div id="resdiv">
+                    <p id="resmedia">0</p>
+                    <p id="respontos">pontos</p>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <script src="ConteudoIEP.js" defer></script>
+    
+</body>
+</html>

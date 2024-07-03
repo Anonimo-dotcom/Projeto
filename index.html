@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulle</title>
+    <link rel="shortcut icon" href="iconeIEP.png" type="image/x-icon">
+    <link rel="stylesheet" href="ProjetoIEP.css">
+</head>
+<body>
+    <div id="fundo">
+        <header>
+            <h1><strong id="B">b</strong>ulle</h1>
+            <p>BOLETIM</p>
+        </header>
+        <div id="pos">
+            <div id="menu">
+                <div id="front">
+                    <form>
+                        <div id="espa1"></div>
+                        <div class="part">
+                            <label for="email"><img src="person.png" alt="icone"></img></label>
+                            <input type="email" name="email" id="email" class="dados" placeholder="e-mail" required>
+                        </div>
+                        <div id="espa2"></div>
+                        <div class="part">
+                            <label for="email"><img src="lock.png" alt="icone"></img></label>
+                            <input type="password" name="senha" id="senha" class="dados" placeholder="senha" required maxlength="12">
+                        </div>
+                        <div id="espa3">
+                            <a href="ConteudoIEP.html" rel="next">Entrar como convidado</a>
+                        </div>
+                        <div id="botão">
+                            <input type="submit" value="Entrar">
+                        </div>
+                        <div id="criarconta">
+                            <a href="#" onclick="clicou()">cadastre-se</a>
+                        </div>
+                    </form>
+                </div>
+                <div id="back">
+                    <form>
+                        <div id="espa1"></div>
+                        <div class="part">
+                            <label for="email"><img src="person.png" alt="icone"></img></label>
+                            <input type="email" name="email" id="email" class="dados" placeholder="e-mail" required>
+                        </div>
+                        <div id="espa2"></div>
+                        <div class="part">
+                            <label for="email"><img src="lock.png" alt="icone"></img></label>
+                            <input type="password" name="senha" id="senha" class="dados" placeholder="senha" required maxlength="12">
+                        </div>
+                        <div id="espa3">
+                            
+                        </div>
+                        <div id="botão">
+                            <input type="submit" value="Criar conta">
+                        </div>
+                        <div id="criarconta">
+                            <a href="#" onclick="clicoudenovo()">Voltar</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <script src="ProjetoIEP.js"></script>
+</body>
+</html>

@@ -1,0 +1,290 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body{
+    background-color: #021C59;
+}
+
+#grupos{
+    width: 40px;
+    margin: 5px;
+    padding: 5px;
+}
+
+#exit{
+    width: 40px;
+    margin: 5px;
+}
+
+#fundo{
+    height: 700px;
+    min-width: 400px;
+    max-width: 600px;
+    margin: auto;
+    position: relative;
+}
+
+header{
+    height: 120px;
+    
+}
+
+#part1{
+    width: 180px;
+    margin-left: 20px;
+}
+
+#dici{
+    text-align: center;
+    color: #F1D142;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #032F90;
+    margin-bottom: 10px;
+}
+
+#principal{
+    width: 180px;
+    border-radius: 20px;
+    background-color: #032F90;
+}
+
+.itens{
+    margin: auto;
+    width: 151px;
+}
+
+.tipo{
+    text-align: center;
+    color: #F1D142;
+    font-size: 0.6em;
+    margin: 15px 0px 10px 0px;
+    font-weight: bold;
+    width: 150px;
+}
+
+.materia{
+    width: 150px;
+    margin: 5px 0px 5px 0px;
+    padding: 2px;
+    background-color: #011F5F;
+    border-radius: 10px;
+    
+}
+
+.materia:hover{
+    box-shadow: 0px 0px 2px white;
+    transition-duration: 0.5s;
+}
+
+.materia > p{
+    display: inline-block;
+    width: 128px;
+    font-size: 0.8em;
+    text-align: center;
+    color: white;
+    transform: translate(5%, -15%);
+}
+
+.materia > img{
+    width: 18px;
+    display: inline-block;
+    text-align: right;
+    transform: translate(0%,10%);
+}
+
+#add{
+    width: 20px;
+    margin: auto;
+}
+
+#add > img{
+    width: 20px;
+}
+
+#espa0{
+    height: 40px;
+    width: 300px;
+    display: inline-block;
+}
+
+#espa1{
+    height: 10px;
+}
+
+#espa2{
+    height: 20px;
+}
+
+#espa3{
+    height: 40px;
+}
+
+.espa{
+    height: 10px;
+}
+
+/* -------PARTE 2--------*/
+
+#part2{
+    width: 180px;
+    height: 450px;
+    display: inline-block;
+    position: absolute;
+    top: 25%;
+    left: 52%;
+    display: none;
+    transition-duration: 3s;
+}
+
+#principal2{
+    width: 180px;
+    background-color: #032F90;
+    border-bottom: 1px solid #ffffff8f;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#principal2 > p{
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+#principal2 > img{
+    width: 20px;
+    transform: translate(0%,22%);
+    display: inline-block;
+}
+
+#principal2 > img:hover{
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+#principal3{
+    background-image: linear-gradient(-45deg, #002166, #053299);
+    padding: 5px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.bimestre{
+    font-size: 0.3em;
+    color: whitesmoke;
+    width: 150px;
+    margin: auto;
+    transform: translate(0%,15%);
+}
+
+.todosvalores{
+    width: 162px;
+    height: 50px;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: #011F5F;
+    margin: auto;
+}
+
+.nomesvalores > .p{
+    font-size: 0.2em;
+    display: inline-block;
+    color: #F1D142;
+    width: 25px;
+    transform: translate(10%,40%);
+}
+
+.valores{
+    width: 25px;
+    border-radius: 8px;
+    font-size: 0.8em;
+    border: none;
+    outline: none;
+    text-align: center;
+    
+}
+
+.medias{
+    width: 25px;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 0.8em;
+    position: absolute;
+    top: 15%;
+    left: 76%;
+    height: 16px;
+    background-color: #50ff0084;
+}
+
+.oi{
+    position: relative;
+}
+
+.mediavalores{
+    font-size: 0.2em;
+    display: inline-block;
+    width: 25px;
+    transform: translate(10%,40%);
+    color: white;
+}
+
+
+
+#resultado{
+    width: 150px;
+    margin: auto;
+}
+
+#divbtn{
+    margin: auto;
+    width: 50px;
+}
+
+#btn{
+    margin: auto;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    background-color: orange;
+    color: #021C59;
+    padding: 3px;
+}
+
+#btn:hover{
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px white;
+}
+
+#resdiv{
+    background-image: linear-gradient(-45deg, #002166, #053299);
+    border-radius: 20px;
+}
+
+#restotal{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+#resmedia{
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+    color: #FCC900;
+}
+
+#respontos{
+    text-align: center;
+    font-size: 0.5em;
+    transform: translate(0%,-50%);
+    color: #F1D142;
+}
